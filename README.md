@@ -27,7 +27,7 @@ some of basic mark-down language:
 |  Blockquote |> blockquote    |
 |  Ordered List |1. First item<br/>2. Second item<br/>3. Third item   |
 |  Unordered List |-First Item <br/> - Second item <br/> - Third item  |
-|  Code |` code `    |
+|  Code | 'code '    |
 |  Horizontal Rule | --- |
 |  Link |[title] (link)|
 |  Image |![alt text] (link)|
