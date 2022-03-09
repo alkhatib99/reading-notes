@@ -9,14 +9,12 @@ When traversing through a linked list, the Current variable will tell us where e
 
 ---
 
-## ***What’s a Linked List, Anyway pt1***
+## ***What’s a Linked List
 
  One characteristic of linked lists is that they are linear data structures, which means that there is a sequence and an order to how they are constructed and traversed. 
  The biggest differentiator between arrays and linked lists is the way that they use memory in our machines. 
 
 ---
-
-## ***What’s a Linked List, Anyway pt2***
 
  inserting an element at the end of a linked list is a different story. The interesting thing here is that the steps you take to actually do the inserting are the exact same:
 
