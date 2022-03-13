@@ -31,6 +31,7 @@ each topic will have a readme file exntension(.md).
 * [Read04 - Classes and Objects](./Read04/README.md)
 * [Read05 - Linked List](./Read05/README.md)
 * [Read06 - Game greed 1](./Read06/README.md)
+* [Read07 - Game greed 2](./Read07/README.md)
 
 ---
 
