@@ -32,6 +32,7 @@ each topic will have a readme file exntension(.md).
 * [Read05 - Linked List](./Read05/README.md)
 * [Read06 - Game greed 1](./Read06/README.md)
 * [Read07 - Game greed 2](./Read07/README.md)
+* [Read08 - Game greed 3 - List Comprehensions](./Read08/README.md)
 
 ---
 
@@ -46,7 +47,7 @@ reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax) 
 some of basic mark-down language:
 |  **Element** | **Markdown syntax**   |
 |---|---|
-| Heading  | # H1<br/>## H2<br/>### H3   |
+| Heading  | # H1[Element:br]## H2<br/>### H3   |
 |  Bold |   **boldtext** |
 |  Italic |*italicized text*   |
 |  Blockquote |> blockquote    |
