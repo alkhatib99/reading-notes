@@ -47,7 +47,7 @@ reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax) 
 some of basic mark-down language:
 |  **Element** | **Markdown syntax**   |
 |---|---|
-| Heading  | # H1[Element:br]## H2<br/>### H3   |
+| Heading  | # H1<br/>## H2<br/>### H3   |
 |  Bold |   **boldtext** |
 |  Italic |*italicized text*   |
 |  Blockquote |> blockquote    |
