@@ -36,9 +36,9 @@ List comprehension is a powerful and concise method for creating lists in Python
 
 ### Separating the characters in a string
 
-```letters = [ letter for letter in "20,000 Leagues Under The Sea"]
-print(letters)
-['2', '0', ',', '0', '0', '0', ' ', 'L', 'e', 'a', 'g', 'u', 'e', 's', ' ', 'U', 'n', 'd', 'e', 'r', ' ', 'T', 'h', 'e', ' ', 'S', 'e', 'a']```
+`letters = [ letter for letter in "20,000 Leagues Under The Sea"]`
+`print(letters)`
+`['2', '0', ',', '0', '0', '0', ' ', 'L', 'e', 'a', 'g', 'u', 'e', 's', ' ', 'U', 'n', 'd', 'e', 'r', ' ', 'T', 'h', 'e', ' ', 'S', 'e', 'a']`
 
 ---
 
