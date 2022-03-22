@@ -1,42 +1,13 @@
 # Reading-notes
 
-This is an reading notes forThis website is intended to keep track of useful
-information found in article and other literary work obtained will include a notes about some topics using mark-down language
-each topic will have a readme file exntension(.md).
+This is a reading note for this website is intended to keep track of useful
+information found in the article and other literary work obtained will include a note about some topics using mark-dow
+n language
+each topic will have a readme file extension(.md).
 
 ---
 
-## Code 102 - Intro to Software Development
-
----
-
-## Code 201 - Foundations of Software Development
-
----
-
-## Code 301 - Intermediate Software Development
-
----
-
-## Code 401 - Advanced Software Development
-
-### Table of Contents
-
-* [The Command Line](./commandLine/README.md)
-* [SQL](./sql/README.md)
-* [Growth Mindset](./Growth-Mindset/README.md)
-* [Read01 - Pain Vs Suffering](./Read01/README.md)
-* [Read02 - Testing and Modules](./Read02/README.md)
-* [Read03 - Reading and Writing in python](./Read03/README.md)
-* [Read04 - Classes and Objects](./Read04/README.md)
-* [Read05 - Linked List](./Read05/README.md)
-* [Read06 - Game greed 1](./Read06/README.md)
-* [Read07 - Game greed 2](./Read07/README.md)
-* [Read08 - Game greed 3 - List Comprehensions](./Read08/README.md)
-
----
-
-## What is Mark Down Language
+## What is MarkDown Language
 
 This Markdown cheat sheet provides a quick overview of all the
 Markdown syntax elements.
@@ -57,11 +28,53 @@ some of basic mark-down language:
 |  Horizontal Rule | --- |
 |  Link |[title] (link)|
 |  Image |![alt text] (link)|
+
 ---
 
-## Who i am ?
+## Table of Contents
 
-I am Abedalqader Alkhatib a full stack web developer 22 years old, fresh graduate from al-ahliyya amman university in computer science field
+- [Reading-notes](#reading-notes)
+  - [What is MarkDown Language](#what-is-markdown-language)
+  - [Table of Contents](#table-of-contents)
+  - [Code 102 - Intro to Software Development](#code-102---intro-to-software-development)
+  - [Code 201 - Foundations of Software Development](#code-201---foundations-of-software-development)
+  - [Code 301 - Intermediate Software Development](#code-301---intermediate-software-development)
+  - [Code 401 - Advanced Software Development](#code-401---advanced-software-development)
+  - [Who I am?](#who-i-am)
+    - [PP](#pp)
+
+## Code 102 - Intro to Software Development
+
+---
+
+## Code 201 - Foundations of Software Development
+
+---
+
+## Code 301 - Intermediate Software Development
+
+---
+
+## Code 401 - Advanced Software Development
+
+* [The Command Line](./commandLine/README.md)
+* [SQL](./sql/README.md)
+* [Growth Mindset](./Growth-Mindset/README.md)
+* [Read01 - Pain Vs Suffering](./Read01/README.md)
+* [Read02 - Testing and Modules](./Read02/README.md)
+* [Read03 - Reading and Writing in python](./Read03/README.md)
+* [Read04 - Classes and Objects](./Read04/README.md)
+* [Read05 - Linked List](./Read05/README.md)
+* [Read06 - Game greed 1](./Read06/README.md)
+* [Read07 - Game greed 2](./Read07/README.md)
+* [Read08 - Game greed 3](./Read08/README.md)
+* [Read08 - Game greed 4](./Read09/README.md)
+
+---
+
+## Who I am?
+
+I am Abedalqader Alkhatib a full stack web developer 22 years old, fresh graduate, from al-ahliyya amman university in computer science field
 more about me :
 
 * Social Media

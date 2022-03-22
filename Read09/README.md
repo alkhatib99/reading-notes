@@ -2,7 +2,16 @@
 
 ## Table Of Content
 
-* [**Dunder Method**](#)
+- [class-09 - Game Of Greed 4](#class-09---game-of-greed-4)
+  - [Table Of Content](#table-of-content)
+    - [1. Dunder Method](#1-dunder-method)
+      - [1.1. What Are Dunder Methods?](#11-what-are-dunder-methods)
+        - [1.1.2. Why is it Called Dunder?](#112-why-is-it-called-dunder)
+        - [1.1.3. The Names Of "dunders"](#113-the-names-of-dunders)
+        - [1.1.4. Why We Use Dunder/Magic Methods in Python?](#114-why-we-use-dundermagic-methods-in-python)
+      - [1.2. Dunder Methods In Our Class](#12-dunder-methods-in-our-class)
+    - [2. Statistics & Probability in Python](#2-statistics--probability-in-python)
+      - [2.1 What is Probability?](#21-what-is-probability)
 
 ### 1. Dunder Method
 
