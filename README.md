@@ -57,18 +57,18 @@ some of basic mark-down language:
 
 ## Code 401 - Advanced Software Development
 
-* [The Command Line](./commandLine/README.md)
-* [SQL](./sql/README.md)
-* [Growth Mindset](./Growth-Mindset/README.md)
-* [Read01 - Pain Vs Suffering](./Read01/README.md)
-* [Read02 - Testing and Modules](./Read02/README.md)
-* [Read03 - Reading and Writing in python](./Read03/README.md)
-* [Read04 - Classes and Objects](./Read04/README.md)
-* [Read05 - Linked List](./Read05/README.md)
-* [Read06 - Game greed 1](./Read06/README.md)
-* [Read07 - Game greed 2](./Read07/README.md)
-* [Read08 - Game greed 3](./Read08/README.md)
-* [Read08 - Game greed 4](./Read09/README.md)
+- [The Command Line](./commandLine/README.md)
+- [SQL](./sql/README.md)
+- [Growth Mindset](./Growth-Mindset/README.md)
+- [Read01 - Pain Vs Suffering](./Read01/README.md)
+- [Read02 - Testing and Modules](./Read02/README.md)
+- [Read03 - Reading and Writing in python](./Read03/README.md)
+- [Read04 - Classes and Objects](./Read04/README.md)
+- [Read05 - Linked List](./Read05/README.md)
+- [Read06 - Game greed 1](./Read06/README.md)
+- [Read07 - Game greed 2](./Read07/README.md)
+- [Read08 - Game greed 3](./Read08/README.md)
+- [Read09 - Game greed 4](./Read09/README.md)
 
 ---
 
