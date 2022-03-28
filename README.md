@@ -69,6 +69,9 @@ some of basic mark-down language:
 - [Read07 - Game greed 2](./Read07/README.md)
 - [Read08 - Game greed 3](./Read08/README.md)
 - [Read09 - Game greed 4](./Read09/README.md)
+- [Read10 - Stacks and Queue](./Read10/README.md)
+- [Read11 - Data Science](./Read11/README.md)
+- [Read12 - Pandas](./Read12/README.md)
 
 ---
 
