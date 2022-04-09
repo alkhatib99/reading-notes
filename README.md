@@ -72,6 +72,9 @@ some of basic mark-down language:
 - [Read10 - Stacks and Queue](./Read10/README.md)
 - [Read11 - Data Science](./Read11/README.md)
 - [Read12 - Pandas](./Read12/README.md)
+- [Read13 - Linear-Regrission](./Read13/README.md)
+- [Read14 - matplotlab](./Read14/README.md)
+- [Read15 - Trees](./Read15/README.md)
 
 ---
 
