@@ -76,18 +76,18 @@ some of basic mark-down language:
 - [Read14 - matplotlab](./Read14/README.md)
 - [Read15 - Trees](./Read15/README.md)
 - [Read16 - Serverless Functions](./Read16/README.md)
+- [Read17 - Web Scraping](./Read17/README.md)
 
 ---
 
 ## Who I am?
 
-I am Abedalqader Alkhatib a full stack web developer 22 years old, fresh graduate, from al-ahliyya amman university in computer science field
-more about me :
+I am Abedalqader Alkhatib a full stack web developer 22 years old, a fresh graduate, from al-Ahliyya Amman University in the computer science field.
 
-* Social Media
+- Social Media
 
-> * Github:[Github](https://github.com/alkhatib99)
-> * Linkedin: [Linkedin](https://www.linkedin.com/in/abdulqader-alkhatib-850453216/)
+> - Github:[Github](https://github.com/alkhatib99)
+> - Linkedin: [Linkedin](https://www.linkedin.com/in/abdulqader-alkhatib-850453216/)
 >
 ### PP
 
