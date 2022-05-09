@@ -43,7 +43,7 @@ Django web applications typically group the code that handles each of these step
 
 Before you can use Django, you’ll need to install it.
 
-**(Installation Guide)**[https://docs.djangoproject.com/en/4.0/intro/install/]
+[**Installation Guide**](https://docs.djangoproject.com/en/4.0/intro/install/)
 
 ---
 
