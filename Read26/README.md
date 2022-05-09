@@ -26,7 +26,7 @@ Django web applications typically group the code that handles each of these step
 
 !["WRRC"](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction/basic-django.png)
 
-* **Urls**: A URL mapper is used to redirect HTTP requests to the appropriate view based on the request URL.
+* **URLs**: A URL mapper is used to redirect HTTP requests to the appropriate view based on the request URL.
   The URL mapper can also match particular patterns of strings or digits that appear in a URL and pass these to a view function as data.
 
 * **View**: A view is a request handler function, which receives HTTP requests and returns HTTP responses. Views access the data needed to satisfy requests via models, and delegate the formatting of the response to templates.
