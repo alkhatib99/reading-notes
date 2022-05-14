@@ -79,6 +79,7 @@ some of basic mark-down language:
 - [Read17 - Web Scraping](./Read17/README.md)
 - [Read26 - Django](./Read26/README.md)
 - [Read27 - Django Models](./Read27/README.md)
+- [Read28 - Django CRUD](./Read28/README.md)
 
 ---
 
