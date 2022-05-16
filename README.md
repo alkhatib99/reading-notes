@@ -40,6 +40,7 @@ some of basic mark-down language:
   - [Code 201 - Foundations of Software Development](#code-201---foundations-of-software-development)
   - [Code 301 - Intermediate Software Development](#code-301---intermediate-software-development)
   - [Code 401 - Advanced Software Development](#code-401---advanced-software-development)
+  - [- Read29 - Dnajgo Custom User](#--read29---dnajgo-custom-user)
   - [Who I am?](#who-i-am)
     - [PP](#pp)
 
@@ -80,7 +81,7 @@ some of basic mark-down language:
 - [Read26 - Django](./Read26/README.md)
 - [Read27 - Django Models](./Read27/README.md)
 - [Read28 - Django CRUD](./Read28/README.md)
-
+- [Read29 - Dnajgo Custom User](./Read29/README.md)
 ---
 
 ## Who I am?
