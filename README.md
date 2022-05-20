@@ -81,6 +81,8 @@ some of basic mark-down language:
 - [Read27 - Django Models](./Read27/README.md)
 - [Read28 - Django CRUD](./Read28/README.md)
 - [Read29 - Dnajgo Custom User](./Read29/README.md)
+- [Read31 - Django REST Framework & Docker](./Read31/README.md)
+- [Hash Tables](./HashTable/README.md)
 
 ---
 
