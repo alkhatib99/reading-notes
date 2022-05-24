@@ -4,20 +4,20 @@ Authentication or identification by itself is not usually sufficient to gain acc
 
 Together with authentication and throttling, permissions determine whether a request should be granted or denied access.
 
-Permission checks are always run at the very start of the view, before any other code is allowed to proceed. Permission checks will typically use the authentication information in the request.user and request.auth properties to determine if the incoming request should be permitted.
+Permission checks are always run at the very start of the view before any other code is allowed to proceed. Permission checks will typically use the authentication information in the request. user and request. auth properties to determine if the incoming request should be permitted.
 
 Permissions are used to grant or deny access for different classes of users to different parts of the API.
 
-The simplest style of permission would be to allow access to any authenticated user, and deny access to any unauthenticated user. This corresponds to the IsAuthenticated class in REST framework.
+The simplest style of permission would be to allow access to any authenticated user and deny access to any unauthenticated user. This corresponds to the IsAuthenticated class in the REST framework.
 
-A slightly less strict style of permission would be to allow full access to authenticated users, but allow read-only access to unauthenticated users. This corresponds to the IsAuthenticatedOrReadOnly class in REST framework.
+A slightly less strict style of permission would be to allow full access to authenticated users, but allow read-only access to unauthenticated users. This corresponds to the IsAuthenticatedOrReadOnly class in the REST framework.
 
-## How Permissions determine 
+## How Permissions determine
 
 Before running the main body of the view each permission in the list is checked.
 
  If any permission check fails, exceptions.PermissionDenied or exceptions.
- 
+
  No authenticated exception will be raised, and the main body of the view will not run.
 
 When the permission checks fail, either a "403 Forbidden" or a "401 Unauthorized" response will be returned, according to the following rules:
@@ -29,13 +29,11 @@ When the permission checks fail, either a "403 Forbidden" or a "401 Unauthorized
 ## Object level permissions
 
 REST framework permissions also support object-level permissioning. Object level permissions are used to determine if a user should be allowed to act on a particular object, which will typically be a model instance.
-
-Object level permissions are run by REST framework's generic views when .get_object() is called. As with view level permissions, an exceptions.PermissionDenied exception will be raised if the user is not allowed to act on the given object.
+Object-level permissions are run by the REST framework's generic views when .get_object() is called. As with view level permissions, an exceptions.PermissionDenied exception will be raised if the user is not allowed to act on the given object.
 
 If you're writing your own views and want to enforce object level permissions, or if you override the get_object method on a generic view, then you'll need to explicitly call the .check_object_permissions(request, obj) method on the view at the point at which you've retrieved the object.
 
-This will either raise a PermissionDenied or NotAuthenticated exception, or simply return if the view has the appropriate permissions.
-
+This will either raise a PermissionDenied or NotAuthenticated exception or simply return if the view has the appropriate permissions.
 
 ## Generic views
 
@@ -44,17 +42,17 @@ Django’s generic views... were developed as a shortcut for common usage patter
 [— Django Documentation
 ](https://docs.djangoproject.com/en/4.0/ref/class-based-views/#base-vs-generic-views)
 
-One of the key benefits of class-based views is the way they allow you to compose bits of reusable behavior. REST framework takes advantage of this by providing a number of pre-built views that provide for commonly used patterns.
+One of the key benefits of class-based views is the way they allow you to compose bits of reusable behavior. REST framework takes advantage of this by providing several pre-built views that provide for commonly used patterns.
 
-The generic views provided by REST framework allow you to quickly build API views that map closely to your database models.
-
+The generic views provided by the REST framework allow you to quickly build API views that map closely to your database models.
 If the generic views don't suit the needs of your API, you can drop down to using the regular APIView class, or reuse the mixins and base classes used by the generic views to compose your own set of reusable generic views.
 
 ### Examples
 
 Typically when using the generic views, you'll override the view, and set several class attributes.
 
-```from django.contrib.auth.models import User
+```code
+From django.contrib.auth.models import User
 from myapp.serializers import UserSerializer
 from rest_framework import generics
 from rest_framework.permissions import IsAdminUser
@@ -64,8 +62,10 @@ class UserList(generics.ListCreateAPIView):
     serializer_class = UserSerializer
     permission_classes = [IsAdminUser]
 ```
+
 For more complex cases you might also want to override various methods on the view class. For example.
-```
+
+```code
 class UserList(generics.ListCreateAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
@@ -85,7 +85,7 @@ For very simple cases you might want to pass through any class attributes using 
 
 ## API Reference
 
-###GenericAPIView
+### GenericAPIView
 
 This class extends REST framework's APIView class, adding commonly required behavior for standard list and detail views.
 
