@@ -83,7 +83,8 @@ some of basic mark-down language:
 - [Read29 - Dnajgo Custom User](./Read29/README.md)
 - [Read31 - Django REST Framework & Docker](./Read31/README.md)
 - [Hash Tables](./HashTable/README.md)
-- [Read 32 Peromissions - Djangon REST Framework](./Read32/README.md)
+- [Read-32 Peromissions - Django REST Framework](./Read32/README.md)
+- [Read-33 Authentication & Production Server](./Read33/README.md)
 
 ---
 
