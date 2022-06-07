@@ -86,6 +86,7 @@ some of basic mark-down language:
 - [Read-32 Peromissions - Django REST Framework](./Read32/README.md)
 - [Read-33 Authentication & Production Server](./Read33/README.md)
 - [Graph](./Graph/README.md)
+- [Read-34 API Deployment](./Read34/README.md)
 
 ---
 
